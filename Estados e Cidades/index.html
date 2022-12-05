@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="scripts.js" defer></script>
+    <title></title>
+</head>
+<body>  
+  <form action="#" id="formcad">
+  <div class="conteiner">
+    <label>Nome</label>
+    <input for="Nome" type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+
+    <label>Sexo:</label>
+    <label for="gen">Masculino                               <input type="radio" name="gen" value="Masculino" id="op1"/></label>
+    <label for="gen">Feminino                              <input type="radio" name="gen" value="Feminino" id="op2"/></label> 
+   
+    
+    <label>CPF:</label>
+    <input for="CPF" type="number" name="cpf" id="cpf" placeholder="Digite seu CPF">
+    
+    
+    <label>UF:</label>
+    <select name="uf" id="uf">
+      <option value="0"></option>
+  </select>
+  <label>Região:</label>
+      <input type="text" name="regiao" id="regiao" disabled>
+  </select>
+
+  <label>Cidade:</label>
+  <select name="municipio" id="municipio">
+    <option value="0"></option>
+</select>
+    <label>DDD</label>
+    <input for="uf" type="text" name="ddd" id="ddd" required/>
+
+    <label>Telefone fixo</label>
+    <input for="Telefone" type="number" name="tel" id="tel" required/>
+
+    <label>Email</label>
+    <input for="email" type="email" name="email" id="email" required/>
+
+    
+
+
+  <input type="submit" value="✔️ Enviar" id="cadnovo"/>
+
+  </div>
+  </form>
+
+  <table id="cadastros"></table>
+ 
+      
+      
+</body>
+</html>
